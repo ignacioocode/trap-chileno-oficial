@@ -1,0 +1,40 @@
+article
+{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+article div
+{
+    height: 70%;
+}
+
+article div img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+article h5
+{
+    display: flex;
+    align-items: flex-end;
+    height: 20%;
+}
+
+article h5 a
+{
+    color: #000;
+}
+
+article p a
+{
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+}

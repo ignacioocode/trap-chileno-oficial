@@ -1,0 +1,36 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .ContainerTitle
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .ContainerTitle h3
+{
+    width: 80%;
+}
+
+main section
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main section .container
+{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}

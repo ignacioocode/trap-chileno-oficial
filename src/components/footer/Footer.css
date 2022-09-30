@@ -1,0 +1,26 @@
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+footer div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px;
+}
+
+footer .DivTitle
+{
+    width: 40%;
+}
+
+footer .DivIcon
+{
+    width: 100px;
+}
+

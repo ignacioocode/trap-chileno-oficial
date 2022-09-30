@@ -1,0 +1,82 @@
+header 
+{
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    grid-template-rows: 100px 1fr;
+    height: 500px;
+    width: 100%;
+}
+
+header nav
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    color: #222
+}
+
+
+header .ImgContainer
+{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background: #000;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    /* background-image: url('../../assets/img/banner.JPG'); */
+}
+
+header .ImgContainer img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .Container
+{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+header .Container h1
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Russo One', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+header .Container h1 p:nth-child(2)
+{
+    /* color: #4F46E5; */
+    animation: color 20s backwards infinite;
+}
+
+@keyframes color {
+    0%{
+        color: rgb(18, 184, 225);
+    }25%{
+        color: rgb(44, 226, 108);
+    }50%{
+        color: rgb(70, 67, 255);
+    }75%{
+        color: rgb(177, 28, 218);
+    }100%{
+        color: rgb(18, 184, 225);
+
+
+
+    }
+}
+
+header .Container h5
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
