@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trap-chileno-oficial/static/css/main.bbc1d02f.css",
+    "main.js": "/trap-chileno-oficial/static/js/main.023cba30.js",
+    "static/media/banner.JPG": "/trap-chileno-oficial/static/media/banner.01252bdae506ef56ce7b.JPG",
+    "index.html": "/trap-chileno-oficial/index.html",
+    "main.bbc1d02f.css.map": "/trap-chileno-oficial/static/css/main.bbc1d02f.css.map",
+    "main.023cba30.js.map": "/trap-chileno-oficial/static/js/main.023cba30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbc1d02f.css",
+    "static/js/main.023cba30.js"
+  ]
+}
