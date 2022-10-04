@@ -11,7 +11,6 @@ const Footer = () => {
                 <h3>Mantenerse en Contacto</h3>
             </div>
             <div className='DivIcon'>
-                <a href="http://" target="_blank" rel="noopener noreferrer"></a>
                 <FontAwesomeIcon icon={faYoutube} />
                 <FontAwesomeIcon icon={faGithub} />
             </div>
