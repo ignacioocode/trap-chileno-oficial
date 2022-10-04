@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Inicio from './Routes/Inicio';
-import Nosotros from './Routes/Nosotros';
-import Proyectos from './Routes/Proyectos';
-import Contacto from './Routes/Contacto';
+import Inicio from './routes/Inicio';
+import Nosotros from './routes/Nosotros';
+import Proyectos from './routes/Proyectos';
+import Contacto from './routes/Contacto';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

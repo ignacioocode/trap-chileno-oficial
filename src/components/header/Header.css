@@ -79,4 +79,60 @@ header .Container h5
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header .Container p:nth-child(3)
+{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #444;
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) and (min-width: 708px){
+    header .Container h1{
+        font-size: 40px;
+    }
+    header{
+        height: 400px;
+    }
+}
+
+@media (max-width: 708px) {
+    header .Container h1{
+        font-size: 40px;
+    }
+    header .Container h5{
+        font-size: 17px;
+        text-align: center;
+}
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 1fr;
+        height: 100%;
+    }
+    header nav{
+        grid-row: 1 / 2;
+}
+    header .ImgContainer{
+        grid-row: 3 / 4;
+        grid-column: 1 / 1;
+        margin-bottom: 100px;
+        clip-path: none;
+    }
+    header .Container{
+        grid-row: 2 / 3;
+        margin-left: 0;
+    }
+    header .Container h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    header .Container h1{
+        font-size: 30px;
+    }
 }

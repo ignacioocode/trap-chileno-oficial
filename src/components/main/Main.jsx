@@ -2,7 +2,7 @@ import './Main.css'
 
 const Main = ({children}) => {
     return (
-        <main>
+        <>
             <div className="ContainerTitle">
                 <h3>Últimos videos de Youtube</h3>
             </div>
@@ -11,7 +11,7 @@ const Main = ({children}) => {
                     {children}
                 </div>
             </section>
-        </main>
+        </>
     )
 }
 
